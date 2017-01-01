@@ -10,35 +10,53 @@ body {
 }
 
 #book {
-	background: url("book.png") no-repeat;
+/* background: url("book.png") no-repeat; */
 	position: absolute;
-	width: 830px;
+	/* width: 830px; */
+	width: 130px;
+	/* height: 260px; */
 	height: 260px;
-	left: 50%;
+
+/*	left: 50%; */
+	left: 1%;
+
 	top: 50%;
+/*	margin-left: -400px; */
 	margin-left: -400px;
-	margin-top: -125px;
+	/* margin-top: -125px; */
+	margin-top: -250px;
 }
 
+
+
 #pages section {
-	background: url("paper.png") no-repeat;
-	display: block;
-	width: 400px;
-	height: 250px;
-	position: absolute;
-	left: 415px;
-	top: 5px;
-	overflow: hidden;
+	 /* background: url("paper.png") no-repeat; */ 
+    /*  AQUI SE MODIFICO AGREGANDO UN COLO DE FONDO */
+	 display: block; 
+	 width: 400px;  
+	 height: 450px;   
+	 position: absolute;   
+       left: 415px;    
+	 top: 5px;  
+	 overflow: hidden;
+    background-color: FloralWhite;
 }
+
+
 	#pages section>div {
 		display: block;
 		width: 400px;
-		height: 250px;
+		height: 850px;
+/*        	height: 250px; */
 		font-size: 12px;
+        
+        
 	}
+
+
 	#pages section p,
 	#pages section h2 {
-		padding: 3px 35px;
+		padding: 3px 25px;
 		line-height: 1.4em;
 		text-align: justify;
 	}
@@ -46,7 +64,14 @@ body {
 		margin: 15px 0 10px;
 	}
 
+
+
+
 #pageflip-canvas {
 	position: absolute;
 	z-index: 100;
+
+    
+    
 }
+
